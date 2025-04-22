@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: rgb(245, 247, 120);
+}
+.btn{
+    background-color: rgb(245, 247, 120);
+    border-radius: 10%;
+    font-size: 18px;
+    color: RGB(74, 74, 74);
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+    border-color: rgb(245, 247, 120);
+    font-family: "Roboto", sans-serif;
+}
+.btn:hover{
+    background-color: rgb(245, 247, 120);
+    border-color: rgb(245, 247, 120);
+    color: RGB(74, 74, 70);
+
+}
+.num{
+    bottom: 3px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

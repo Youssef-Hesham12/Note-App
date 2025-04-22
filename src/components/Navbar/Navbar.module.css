@@ -1,0 +1,31 @@
+.bgHero {
+    background-color: rgb(245, 247, 120);
+    padding: 12px;
+}
+
+.Container {
+    padding-left: 12px;
+}
+
+.validateFont {
+    font-size: 20px;
+    font-family: EmbeddedTitleFont, sans-serif;
+}
+
+.Brand {
+    font-size: 24px;
+    font-family: EmbeddedTitleFont, sans-serif;
+    padding: 8px;
+}
+
+.logo {
+    width: 50px;
+}
+
+@media (max-width: 992px) {
+    .space {
+        margin: 0 130.800px;
+        padding: 0 12px;
+        margin-top: 20px;
+    }
+}
