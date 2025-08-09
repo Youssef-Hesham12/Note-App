@@ -94,8 +94,8 @@ export default function Home() {
           </Button>
         </Modal.Footer>
       </Modal>
-      <div className="row ">
-        {error == true ? <h1 className='ms-3'>No Notes Found</h1> : <>{allNotes?.map((note) => <Notes key={note._id} myNote={note} deleteFunc={deleteNote} getUserNotes={getUserNotes} />)}</>}
+      <div className="row gx-0 ">
+        {error == true ? <h1 className=''>No Notes Found</h1> : <>{allNotes?.map((note) => <Notes key={note._id} myNote={note} deleteFunc={deleteNote} getUserNotes={getUserNotes} />)}</>}
 
       </div>
     </>
