@@ -6,7 +6,7 @@ export default function Footer() {
     <>
       <footer className=" text-center  border-top ">
         <div className="container ">
-          <p className={style.footer}>   &copy; 2025 Youmna Mustafa.All Rights Reserved.</p>
+          <p className={style.footer}>   &copy; 2025 Youssef Hesham.All Rights Reserved.</p>
           
         </div>
       </footer>
